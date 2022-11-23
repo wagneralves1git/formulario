@@ -25,7 +25,7 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <Text sttyle ={styles.title}>Bem vindo(a)</Text>
+      <Text style ={styles.title}>Bem vindo(a)</Text>
 
       <TextInput
         style={styles.input}
@@ -65,17 +65,31 @@ export default function App() {
       paddingHorizontal: 18
     },
     title:{
-      fontsize: 64,
-      marginBottom: 54,
+      fontsize: 44,
+      marginBottom: 34,
       color: '#121212', 
       fontWeight: 'bold'
     },
     input:{
       width: '100%',
       height: 40,
-      backgroundColor: '#FFF',
-      marginBottom: 10
-
+      backgroundColor: '#FFFFFF',
+      paddingHorizontal: 8,
+      marginBottom: 8,
+      borderRadius:4,
+      color: '#121212'
+    },
+    button:{
+      width: '100%',
+      height: 40,
+      backgroundColor: '#45d800',
+      borderRadius: 4,
+      justifyContent: 'center',
+      alignItems: 'center'
+    },
+    buttonText:{
+      color: '#fff',
+      fontWeight: 'bold',
+      fontsize: 18,
     }
-  }
-  )
+})
